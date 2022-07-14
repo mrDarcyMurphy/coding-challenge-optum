@@ -1,0 +1,53 @@
+body {
+  background-color: #fbf9f4;
+  color: #5a5a5a;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  margin: 2rem auto;
+  width: 500px;
+}
+
+h1 {
+  text-align: center;
+  color: #002677
+}
+
+h2 {
+  color: #002677
+}
+
+input {
+  padding: 0.5rem;
+  border: 1px solid transparent;
+  width: 100%;
+}
+
+input:focus {
+  border-color: #002677;
+  outline: none;
+}
+
+.items {
+  padding: 0 2rem;
+  margin: 1rem 0;
+}
+
+.items li:hover {
+  cursor: pointer;
+  color: #ff612b;
+}
+
+.items.completed li {
+  color: #5a5a5a;
+  text-decoration: line-through;
+}
+
+.items.completed li:hover {
+  color: #ff612b;
+}
